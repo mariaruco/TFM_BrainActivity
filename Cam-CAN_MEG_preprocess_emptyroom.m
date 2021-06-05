@@ -28,8 +28,8 @@ omegaProt = 'CAMCAN_BSTdb_v1';
 
 % -------------------------------------------------------------------------
 
-% Frequencies to filter with the noth (power line 60Hz and harmonics)
-freqs_notch = [50:50:450, 48.75, 88];
+% Frequencies to filter with the notch (power line 50Hz and harmonics, also 49Hz and 88Hz)
+freqs_notch = [50:50:450, 49, 88];
 
 % Filters
 highpass = 0.3;
